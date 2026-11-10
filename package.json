@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@qiita/qiita-cli": "1.13.0"
+  },
+  "name": "my-posts",
+  "private": true,
+  "scripts": {
+    "preview": "qiita preview --root qiita",
+    "login": "qiita login",
+    "publish:bob": "qiita publish bob-training --root qiita"
+  }
+}
